@@ -1,0 +1,48 @@
+services:
+  mealie:
+    image: ghcr.io/mealie-recipes/mealie:v2.1.0
+    container_name: mealie
+    restart: always
+    ports:
+      - 9091:9000
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+    volumes:
+      - mealie-data:/app/data
+    environment:
+      ALLOW_SIGNUP: true
+      PUID: 1000
+      PGID: 1000
+      TZ: America/Denver
+      MAX_WORKERS: 1
+      WEB_CONCURRENCY: 1
+      BASE_URL: http://192.168.10.25:9091
+      DB_ENGINE: postgres
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_SERVER: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: mealie
+    depends_on:
+      postgres:
+        condition: service_healthy
+  postgres:
+    container_name: postgres
+    image: postgres:15
+    restart: always
+    volumes:
+      - mealie-pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+    healthcheck:
+      test: ["CMD", "pg_isready"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+volumes:
+  mealie-pgdata:
+  mealie-data:
