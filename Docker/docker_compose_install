@@ -1,0 +1,39 @@
+Install Docker Compose (v2) on Ubuntu
+This method ensures you get the latest version and integrates it as a Docker plugin.
+
+1. Install Docker and ensure it's running:
+  
+sudo apt update
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+  
+# Verify Docker is working:
+  
+docker --version
+
+2. Download and Install Docker Compose v2 as a plugin:
+
+sudo mkdir -p /usr/local/lib/docker/cli-plugins
+sudo curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose
+
+3. Give Execute Permissions:
+
+sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+
+4. Verify the Installation:
+
+Run the following to check if Docker Compose is installed correctly:
+
+docker compose version
+# (Note: No hyphen in docker compose because v2 is now a Docker plugin.)
+
+
+(Alternative) Install via APT Package
+If you prefer using APT (though it might not always have the latest version):
+
+sudo apt update
+sudo apt install -y docker-compose-plugin
+  
+Verify installation:
+
+docker compose version
