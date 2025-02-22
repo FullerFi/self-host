@@ -1,0 +1,24 @@
+**Kasm hardware requirements**
+CPU - 2 cores
+Memory - 4GB
+Storage - min 50GB (SSD)
+
+# Single-Server install guide: https://www.kasmweb.com/docs/latest/install/single_server_install.html
+# Find the latest release: https://www.kasmweb.com/docs/latest/release_notes.html
+
+# Pre-install:
+# 1. Ensure your system is up-to-date with the latest patches and updates
+# 2. Install Docker Compose: https://github.com/FullerFi/self-host/blob/main/Docker/docker_compose_install
+
+# Initial install:
+# 1. Download the latest version to /tmp
+
+cd /tmp
+curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.1.98d6fa.tar.gz
+tar -xf kasm_release_1.16.1.98d6fa.tar.gz
+sudo bash kasm_release/install.sh
+
+# *** Make sure to SAVE THE CREDENTIALS at the end of the login process ***
+
+# Navigate to https://<kasm_server_ip_addy>
+# Log in with the 'admin@kasm.local' creds
