@@ -1,0 +1,25 @@
+Install (or Reinstall) Tailscale on UDM Pro
+The UDM Pro runs a custom Linux environment, so we need to install Tailscale differently.
+
+Option A: Install Tailscale via Script (Recommended)
+Run this command:
+curl -fsSL https://tailscale.com/install.sh | sh
+This will download and install the latest version.
+
+Option B: Manually Install the .deb Package
+If the script doesn’t work, manually download and install it:
+curl -LO https://pkgs.tailscale.com/stable/tailscale_1.80.2_amd64.deb
+dpkg -i tailscale_1.80.2_amd64.deb
+
+3. Enable and Start Tailscale
+Once installed, start the service:
+tailscaled
+tailscale up
+(You may need to authenticate using a URL it provides.)
+
+4. Verify the Installation
+tailscale version
+tailscale status
+
+5. Ensure Tailscale Persists After Reboot (if needed)
+By default, the UDM Pro does not persist custom software after reboot. If you want Tailscale to stay installed, you'll need to set up udm-boot.
