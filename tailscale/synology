@@ -3,6 +3,7 @@ Once you know your DSM version, go to:
 👉 Tailscale Synology Packages
 
 Look for the correct .spk package for DSM6 or DSM7 (x86_64) and copy the download link.
+https://pkgs.tailscale.com/stable/#spks
 
 1. Stop the Tailscale Package
 sudo synopkg stop Tailscale
