@@ -23,3 +23,5 @@ sudo synopkg start Tailscale
 7. Verify the Update
 tailscale version
 
+Video tutorial:
+https://tailscale.com/kb/1131/synology
