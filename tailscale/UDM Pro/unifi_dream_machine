@@ -23,3 +23,29 @@ tailscale status
 
 5. Ensure Tailscale Persists After Reboot (if needed)
 By default, the UDM Pro does not persist custom software after reboot. If you want Tailscale to stay installed, you'll need to set up udm-boot.
+
+
+How to Update Tailscale:
+
+1. SSH into Your UDM Pro
+Open a terminal and connect to your UDM Pro:
+ssh root@<UDM-IP>
+(Replace <UDM-IP> with your actual UDM Pro IP.)
+
+2. Stop the Running Tailscale Service
+tailscale logout
+If you installed Tailscale via udm-boot, you may need to stop the service manually:
+
+systemctl stop tailscaled
+
+3. Download and Install the Latest Tailscale
+Run the following command to get the latest version:
+curl -fsSL https://tailscale.com/install.sh | sh
+This script will automatically install the latest version.
+
+4. Restart the Tailscale Service
+systemctl restart tailscaled
+If you’re using udm-boot for persistence, you may need to reload it:
+
+5. Verify the Update
+tailscale version
