@@ -1,9 +1,15 @@
 Download the Correct Tailscale Package
 Once you know your DSM version, go to:
-👉 Tailscale Synology Packages
+https://pkgs.tailscale.com/stable/#spks
 
 Look for the correct .spk package for DSM6 or DSM7 (x86_64) and copy the download link.
-https://pkgs.tailscale.com/stable/#spks
+
+To find your DSM version, run this command within your NAS:
+cat /etc.defaults/VERSION
+
+Look for the 'majorversion' field:
+If it says 6 → You need the DSM6 package.
+If it says 7 → You need the DSM7 package.
 
 1. Stop the Tailscale Package
 sudo synopkg stop Tailscale
@@ -17,4 +23,3 @@ sudo synopkg start Tailscale
 7. Verify the Update
 tailscale version
 
-This should work on DSM 7
