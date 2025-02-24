@@ -1,0 +1,58 @@
+Making Tailscale Persistent on UDM Pro
+By default, the UniFi Dream Machine Pro (UDM Pro) does not persist changes after a reboot. To keep Tailscale running permanently, we need to use udm-boot.
+
+Step 1: Install udm-boot
+udm-boot is a package that allows you to persist changes across reboots.
+
+SSH into your UDM Pro:
+ssh root@<UDM-IP>
+
+Download and install udm-boot:
+curl -L https://github.com/boostchicken/udm-boot/releases/latest/download/udm-boot_1.0.5-1_all.deb -o udm-boot.deb
+dpkg -i udm-boot.deb
+
+Reboot your UDM Pro to apply changes:
+reboot
+
+Step 2: Create a Persistent Tailscale Startup Script
+Now that udm-boot is installed, we need to create a script that runs Tailscale on boot.
+
+Create the startup directory (if it doesn’t exist):
+mkdir -p /mnt/data/on_boot.d
+
+Create a startup script for Tailscale:
+
+vi /mnt/data/on_boot.d/10-tailscale.sh
+(If you're not comfortable with vi, use nano instead: nano /mnt/data/on_boot.d/10-tailscale.sh)
+
+Add the following content to the script:
+#!/bin/sh
+if ! pgrep tailscaled > /dev/null; then
+    /usr/sbin/tailscaled &
+    sleep 2
+    /usr/bin/tailscale up --ssh --accept-routes
+fi
+
+'tailscaled &' starts the Tailscale service.
+'tailscale up --ssh --accept-routes' brings it online with SSH access and subnet routing enabled.
+
+Modify the tailscale up command if needed (e.g., if you don’t want SSH access).
+
+Save and exit:
+In vi: Press ESC, then type :wq and hit Enter.
+In nano: Press CTRL + X, then Y, and Enter.
+
+Make the script executable:
+chmod +x /mnt/data/on_boot.d/10-tailscale.sh
+
+Step 3: Apply the Changes
+Manually run the script to test it:
+/mnt/data/on_boot.d/10-tailscale.sh
+
+Reboot your UDM Pro to verify persistence:
+reboot
+
+After reboot, SSH back in and check if Tailscale is running:
+tailscale status
+
+If everything looks good, Tailscale will now persist across reboots! 🎉🚀
