@@ -1,0 +1,509 @@
+pages:
+  - name: Widgets
+    path: widgets.yml
+  - name: Bookmarks
+    path: bookmarks.yml
+pageInfo:
+  title: FullerFi Dashboard
+  description: Links to all that is FullerFi
+  navLinks:
+    - title: GitHub
+      path: https://github.com/FullerFi?tab=repositories
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: Because, who could be afrain of a Jeffrey?
+  logo: https://the-jeffrey.com/wp-content/uploads/2021/03/Fuller-Logo-3.svg
+appConfig:
+  theme: argon
+  layout: horizontal
+  iconSize: medium
+  language: en
+  customColors:
+    material:
+      primary: '#363636'
+      background: '#eee'
+      background-darker: '#567ab3'
+      info: '#04e4f4'
+      success: '#20e253'
+      warning: '#d4d015'
+      error: '#fca016'
+      danger: '#f80363'
+      neutral: '#272f4d'
+      white: '#fff'
+      black: '#000'
+      item-group-background: none
+      medium-grey: '#5e6474'
+      item-background: '#fff'
+      item-background-hover: '#fff'
+      transparent-70: rgba(0,0,0,0.7019607843137254)
+      transparent-50: rgba(0,0,0,0.5019607843137255)
+      transparent-30: rgba(0,0,0,0.30196078431372547)
+      transparent-white-70: hsla(0,0%,100%,0.7019607843137254)
+      transparent-white-50: rgba(0,0,0,0.5019607843137255)
+      transparent-white-30: hsla(0,0%,100%,0.30196078431372547)
+      heading-text-color: '#fff'
+      nav-link-text-color: '#fff'
+      nav-link-background-color: '#0c4eba'
+      nav-link-text-color-hover: '#363636'
+      nav-link-background-color-hover: rgba(96,125,139,0.2)
+      nav-link-border-color: '#0c4eba'
+      nav-link-border-color-hover: '#363636'
+      nav-link-shadow: '1px 1px 2px #232323'
+      nav-link-shadow-hover: '1px 1px 2px #232323'
+      item-text-color: '#363636'
+      item-text-color-hover: '#363636'
+      item-group-outer-background: none
+      item-group-heading-text-color: none
+      item-group-heading-text-color-hover: '#363636'
+      settings-text-color: '#363636'
+      settings-background: '#eee'
+      config-settings-color: '#473f3f'
+      config-settings-background: '#f5f5f5'
+      config-code-color: '#363636'
+      config-code-background: '#fff'
+      code-editor-color: '#000'
+      code-editor-background: '#fff'
+      widget-text-color: '#363636'
+      widget-background-color: '#eee'
+      widget-accent-color: '#eee'
+      widget-base-background: transparent
+      interactive-editor-color: '#473f3f'
+      interactive-editor-background: '#f5f5f5'
+      interactive-editor-background-darker: '#fff'
+      cloud-backup-color: '#473f3f'
+      cloud-backup-background: '#f5f5f5'
+      search-container-background: '#4285f4'
+      search-field-background: '#eee'
+      search-label-color: '#363636'
+      footer-text-color: '#f5f5f5'
+      footer-text-color-link: '#363636'
+      footer-background: '#4285f4'
+      context-menu-background: '#fff'
+      context-menu-color: '#363636'
+      context-menu-secondary-color: '#f5f5f5'
+      side-bar-background: '#4285f4'
+      side-bar-background-lighter: '#0c4eba'
+      side-bar-color: '#363636'
+      side-bar-item-background: '#f5f5f5'
+      side-bar-item-color: '#363636'
+      workspace-web-content-background: '#eee'
+      minimal-view-background-color: '#eee'
+      minimal-view-title-color: '#4285f4'
+      minimal-view-settings-color: '#363636'
+      minimal-view-section-heading-color: '#363636'
+      minimal-view-section-heading-background: '#f6f6f6'
+      minimal-view-search-background: '#fff'
+      minimal-view-search-color: '#363636'
+      minimal-view-group-color: '#363636'
+      minimal-view-group-background: '#fff'
+      login-form-color: '#363636'
+      login-form-background: '#eee'
+      login-form-background-secondary: '#4285f4'
+      about-page-color: '#363636'
+      about-page-background: '#eee'
+      about-page-accent: '#363636'
+      scroll-bar-color: '#363636'
+      scroll-bar-background: '#4285f4'
+      highlight-color: '#eee'
+      highlight-background: '#363636'
+      progress-bar: '#363636'
+      loading-screen-color: '#363636'
+      loading-screen-background: '#eee'
+      status-check-tooltip-background: '#fff'
+      status-check-tooltip-color: '#363636'
+      welcome-popup-background: '#4285f4'
+      welcome-popup-text-color: '#f5f5f5'
+      toast-background: '#363636'
+      toast-color: '#eee'
+      description-tooltip-background: '#fff'
+      description-tooltip-color: '#473f3f'
+      outline-color: none
+      curve-factor: 3px
+      curve-factor-navbar: 8px
+      curve-factor-small: 2px
+      dimming-factor: '0.7'
+      scroll-bar-width: 8px
+      header-height: 6.3rem
+      footer-height: 140px
+      item-group-padding: 5px
+      item-shadow: >-
+        0 1px 3px rgba(0,0,0,0.12156862745098039),0 1px 2px
+        rgba(0,0,0,0.23921568627450981)
+      item-hover-shadow: >-
+        0 1px 4px rgba(0,0,0,0.1607843137254902),0 2px 4px
+        rgba(0,0,0,0.16470588235294117)
+      item-icon-transform: drop-shadow(2px 4px 6px rgba(0,0,0,0.5019607843137255)) saturate(0.95)
+      item-icon-transform-hover: none
+      item-group-shadow: none
+      context-menu-shadow: >-
+        0 1px 3px rgba(0,0,0,0.12156862745098039),0 1px 2px
+        rgba(0,0,0,0.23921568627450981)
+      section-max-height: 3000px
+      settings-container-shadow: none
+      side-bar-width: 3.5rem
+      tooltip-arrow-size: 6px
+      tooltip-width: 250px
+      tooltip-padding: 0.2rem
+      font-body: '"Raleway",serif'
+      font-headings: '"Francois One",serif'
+      font-monospace: '"PTMono","Courier New",monospace'
+    material-dark:
+      primary: '#363636'
+      background: '#eee'
+      background-darker: '#5ceb8d'
+      info: '#04e4f4'
+      success: '#20e253'
+      warning: '#d4d015'
+      error: '#fca016'
+      danger: '#f80363'
+      neutral: '#272f4d'
+      white: '#fff'
+      black: '#000'
+      item-group-background: none
+      medium-grey: '#5e6474'
+      item-background: '#fff'
+      item-background-hover: '#fff'
+      transparent-70: rgba(0,0,0,0.7019607843137254)
+      transparent-50: rgba(0,0,0,0.5019607843137255)
+      transparent-30: rgba(0,0,0,0.30196078431372547)
+      transparent-white-70: hsla(0,0%,100%,0.7019607843137254)
+      transparent-white-50: rgba(0,0,0,0.5019607843137255)
+      transparent-white-30: hsla(0,0%,100%,0.30196078431372547)
+      heading-text-color: '#fff'
+      nav-link-text-color: '#fff'
+      nav-link-background-color: '#0c4eba'
+      nav-link-text-color-hover: '#363636'
+      nav-link-background-color-hover: rgba(96,125,139,0.2)
+      nav-link-border-color: '#0c4eba'
+      nav-link-border-color-hover: '#363636'
+      nav-link-shadow: '1px 1px 2px #232323'
+      nav-link-shadow-hover: '1px 1px 2px #232323'
+      item-text-color: '#363636'
+      item-text-color-hover: '#363636'
+      item-group-outer-background: none
+      item-group-heading-text-color: none
+      item-group-heading-text-color-hover: '#363636'
+      settings-text-color: '#363636'
+      settings-background: '#eee'
+      config-settings-color: '#473f3f'
+      config-settings-background: '#f5f5f5'
+      config-code-color: '#363636'
+      config-code-background: '#fff'
+      code-editor-color: '#000'
+      code-editor-background: '#fff'
+      widget-text-color: '#363636'
+      widget-background-color: '#eee'
+      widget-accent-color: '#eee'
+      widget-base-background: transparent
+      interactive-editor-color: '#473f3f'
+      interactive-editor-background: '#f5f5f5'
+      interactive-editor-background-darker: '#fff'
+      cloud-backup-color: '#473f3f'
+      cloud-backup-background: '#f5f5f5'
+      search-container-background: '#4285f4'
+      search-field-background: '#eee'
+      search-label-color: '#363636'
+      footer-text-color: '#f5f5f5'
+      footer-text-color-link: '#363636'
+      footer-background: '#4285f4'
+      context-menu-background: '#fff'
+      context-menu-color: '#363636'
+      context-menu-secondary-color: '#f5f5f5'
+      side-bar-background: '#4285f4'
+      side-bar-background-lighter: '#0c4eba'
+      side-bar-color: '#363636'
+      side-bar-item-background: '#f5f5f5'
+      side-bar-item-color: '#363636'
+      workspace-web-content-background: '#eee'
+      minimal-view-background-color: '#eee'
+      minimal-view-title-color: '#4285f4'
+      minimal-view-settings-color: '#363636'
+      minimal-view-section-heading-color: '#363636'
+      minimal-view-section-heading-background: '#f6f6f6'
+      minimal-view-search-background: '#fff'
+      minimal-view-search-color: '#363636'
+      minimal-view-group-color: '#363636'
+      minimal-view-group-background: '#fff'
+      login-form-color: '#363636'
+      login-form-background: '#eee'
+      login-form-background-secondary: '#4285f4'
+      about-page-color: '#363636'
+      about-page-background: '#eee'
+      about-page-accent: '#363636'
+      scroll-bar-color: '#363636'
+      scroll-bar-background: '#4285f4'
+      highlight-color: '#eee'
+      highlight-background: '#363636'
+      progress-bar: '#363636'
+      loading-screen-color: '#363636'
+      loading-screen-background: '#eee'
+      status-check-tooltip-background: '#fff'
+      status-check-tooltip-color: '#363636'
+      welcome-popup-background: '#4285f4'
+      welcome-popup-text-color: '#f5f5f5'
+      toast-background: '#363636'
+      toast-color: '#eee'
+      description-tooltip-background: '#fff'
+      description-tooltip-color: '#473f3f'
+      outline-color: none
+      curve-factor: 3px
+      curve-factor-navbar: 8px
+      curve-factor-small: 2px
+      dimming-factor: '0.7'
+      scroll-bar-width: 8px
+      header-height: 6.3rem
+      footer-height: 140px
+      item-group-padding: 5px
+      item-shadow: >-
+        0 1px 3px rgba(0,0,0,0.12156862745098039),0 1px 2px
+        rgba(0,0,0,0.23921568627450981)
+      item-hover-shadow: >-
+        0 1px 4px rgba(0,0,0,0.1607843137254902),0 2px 4px
+        rgba(0,0,0,0.16470588235294117)
+      item-icon-transform: drop-shadow(2px 4px 6px rgba(0,0,0,0.5019607843137255)) saturate(0.95)
+      item-icon-transform-hover: none
+      item-group-shadow: none
+      context-menu-shadow: >-
+        0 1px 3px rgba(0,0,0,0.12156862745098039),0 1px 2px
+        rgba(0,0,0,0.23921568627450981)
+      section-max-height: 3000px
+      settings-container-shadow: none
+      side-bar-width: 3.5rem
+      tooltip-arrow-size: 6px
+      tooltip-width: 250px
+      tooltip-padding: 0.2rem
+      font-body: '"Raleway",serif'
+      font-headings: '"Francois One",serif'
+      font-monospace: '"PTMono","Courier New",monospace'
+    argon:
+      primary: '#e1e8ee'
+      background: '#11171d'
+      background-darker: '#070a0d'
+  customCss: |+
+
+sections:
+  - name: Self-Hosted Goodies
+    displayData:
+      sortBy: alphabetical
+      rows: 2
+      cols: 2
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Pi-Hole_1 (disabled)
+        description: 192.168.10.25
+        icon: >-
+          https://imgs.search.brave.com/KfA_TcstIkH04evp4YSMvmU419cOqx-M5XnrWj3uB3w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8xNDg3NS8xNDg3/NTQ5MC5wbmc_c2Vt/dD1haXNfaHlicmlk
+        url: http://192.168.10.25/admin/
+        target: newtab
+        id: 0_1800_piholedisabled
+      - title: Pi-Hole_2
+        description: 192.168.10.150
+        icon: >-
+          https://imgs.search.brave.com/ZOyps28zyuexyyS44wTQfOhc4vD8xbqPRRAltSo7RmM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/MS8xNS9QaS1ob2xl/X3ZlY3Rvcl9sb2dv/LnN2Zy81MTJweC1Q/aS1ob2xlX3ZlY3Rv/cl9sb2dvLnN2Zy5w/bmc
+        url: http://192.168.10.150/admin
+        target: newtab
+        id: 1_1800_pihole
+      - title: AdGuard
+        description: Guarder of Ads
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vpncrew.com%2Fwp-content%2Fuploads%2F2019%2F01%2FAdGuard-Logo.png&f=1&nofb=1&ipt=11c0d652d20c1c065e2818aeb4a45b737a94d30e12eb9b96be4eb1048ec078db&ipo=images
+        url: http://192.168.10.25/#
+        target: newtab
+        id: 2_1800_adguard
+      - title: Proxmox
+        description: Virtual heaven
+        icon: >-
+          https://imgs.search.brave.com/q5s9YpUOHoxtP3y_HhR6ESJHqq7e3f5FgNWRlEz5RPQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzJ3/MHduL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2w5Zng0djhuM2N3/NzEucG5n
+        url: https://192.168.10.98:8006/
+        target: newtab
+        id: 3_1800_proxmox
+      - title: Kasm
+        description: https://192.168.10.227/#/login
+        icon: >-
+          https://imgs.search.brave.com/KoCo5aLTO2kAV7vjd-Jq9JJXcwB_QIeqq1H15FHm84E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzUx/NHV3Mi9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl92dTY2aWZhdW5z/bGExLnBuZw
+        url: https://192.168.10.227
+        target: newtab
+        id: 4_1800_kasm
+      - title: HomeBox
+        description: Inventory of all things
+        icon: >-
+          https://camo.githubusercontent.com/5a6db9ceabebc1f3af1b308f6b5c670108a0f83afcdb83ff372a081200ae42e2/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f686f6d6172722d6c6162732f64617368626f6172642d69636f6e732f776562702f686f6d65626f782e77656270
+        url: http://192.168.10.99:3100/home
+        target: newtab
+        id: 5_1800_homebox
+      - title: Mealie
+        description: Stored recipes
+        icon: >-
+          https://imgs.search.brave.com/zYevi4qoMC6q7F7Y0IR8-mSWi4iKoKABB3zSXeD2nUg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9tZWFsaWUt/aWNvbi01MTJ4NDg5/LTkzOWp3OGRqLnBu/Zw
+        url: http://192.168.10.99:9925/g/home
+        target: newtab
+        id: 6_1800_mealie
+      - title: Sterling PDF
+        description: PDF Editor
+        icon: >-
+          https://imgs.search.brave.com/lTw8izJ9wXaajiPBpOEXLK27QWdu5PVY2DXERiftTls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR1/bWJyZWwuZ2l0aHVi/LmlvL3VtYnJlbC1h/cHBzLWdhbGxlcnkv/c3RpcmxpbmctcGRm/L2ljb24uc3Zn
+        url: http://192.168.10.99:8081/login
+        target: newtab
+        id: 7_1800_sterlingpdf
+      - title: Immich
+        description: Photo keeper
+        icon: >-
+          https://imgs.search.brave.com/x-QkIQqdZAcn0cElGk3wQFRiUmLxj50ZwcD-OTp856Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzYz/bTR6bC9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl8wbGI4eXh5MHp2/bmMxLnBuZw
+        url: http://192.168.10.99:8212/photos
+        target: newtab
+        id: 8_1800_immich
+      - title: NextCloud
+        description: File Cabinet
+        icon: >-
+          https://imgs.search.brave.com/9SJHq-60KIOe-uvgbrBn_5JMQItRCt_Uly14dh4oQsE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9uZXh0Y2xv/dWQtaWNvbi0yNTZ4/MjU2LTNpcHlvejZy/LnBuZw
+        url: http://192.168.10.99:8080/apps/dashboard/
+        target: newtab
+        id: 9_1800_nextcloud
+    icon: >-
+      https://cdn4.iconfinder.com/data/icons/internet-security-flat-2/32/Internet_Security_home_house_smart_network_sharing-512.png
+  - name: Network Utilities
+    icon: https://cdn3.iconfinder.com/data/icons/network/512/14-1024.png
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Portainer (Pi 25)
+        description: Docker containers on 192.168.10.25
+        icon: >-
+          https://imgs.search.brave.com/I49qAtOXfWYxTEcSVnSOdzvbdk2XZP7ic_fnitgL_rc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY29u/LmljZXBhbmVsLmlv/L1RlY2hub2xvZ3kv/c3ZnL1BvcnRhaW5l/ci5zdmc
+        url: http://192.168.10.25:9000
+        target: newtab
+        id: 0_1734_portainerpi
+      - title: Home Assistant
+        description: 192.168.10.100:8123
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcommunity-assets.home-assistant.io%2Foriginal%2F3X%2F6%2Fa%2F6a99ebb8d0b585a00b407123ff76964cb3e18780.png&f=1&nofb=1&ipt=ab7e032ea82532065b5b6072015e83fae9ffbd3db90d1f11460612c6eeba57fb&ipo=images
+        url: >-
+          http://192.168.10.100:8123/auth/authorize?response_type=code&redirect_uri=http%3A%2F%2F192.168.10.100%3A8123%2F%3Fauth_callback%3D1&client_id=http%3A%2F%2F192.168.10.100%3A8123%2F&state=eyJoYXNzVXJsIjoiaHR0cDovLzE5Mi4xNjguMTAuMTAwOjgxMjMiLCJjbGllbnRJZCI6Imh0dHA6Ly8xOTIuMTY4LjEwLjEwMDo4MTIzLyJ9
+        target: newtab
+        id: 1_1734_homeassistant
+      - title: Unifi Controller
+        icon: >-
+          https://imgs.search.brave.com/yk1wEViBID4g1Uk_4ebFOlTYR3T1YKwHCcrB-2uoRrg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzJ1/YjN6L3N0eWxlcy9j/b21tdW5pdHlJY29u/X3N6Y2hzbWE4MTZw/YTEucG5n
+        url: https://192.168.10.1
+        target: newtab
+        id: 2_1734_unificontroller
+      - title: NASty
+        description: Synology NAS Server - 192.168.10.99
+        icon: https://vectorified.com/images/synology-icon-31.png
+        url: https://192-168-10-99.nasfuller.direct.quickconnect.to:5001/
+        target: newtab
+        id: 3_1734_nasty
+      - title: Ecobee
+        description: Thurmostat in dining room
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.imore.com%2Fsites%2Fimore.com%2Ffiles%2Fstyles%2Fsmall%2Fpublic%2Ffield%2Fimage%2F2020%2F05%2Fecobee-3lite-2nd-generation-render-cropped.png&f=1&nofb=1&ipt=09508e22d76a1906fe84da36345c944203a3adc6c50aa43e4af796fc165a60c7&ipo=images
+        url: >-
+          https://www.ecobee.com/consumerportal/index.html#/devices/thermostats/531640812493
+        target: newtab
+        id: 4_1734_ecobee
+      - title: NetData
+        description: Operational usage on HomeLab endpoints
+        icon: >-
+          https://imgs.search.brave.com/fWcE6N6R6JvVBWm6jMn0OtHREUKBLz_utQ_KIZ17X-E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzNq/M29rL3N0eWxlcy9j/b21tdW5pdHlJY29u/XzcxYmxydDNwdzkw/OTEucG5n
+        url: >-
+          https://app.netdata.cloud/spaces/smart-home-space/rooms/all-nodes/nodes#metrics_correlation=false&after=1743518966000&before=1743519866000&utc=America%2FDenver&offset=-6&timezoneName=Mountain%20Time%20(US%20&modal=&modalTab=&modalParams=&force_play=false&724250ac-6c8d-499a-aeab-ad381bc57a90-nodesView-nodeIdToGo-val=menu_Live&a0b61362-cba0-4bf6-bcbc-6f89080d4e26-fn-selectedNodeIds-arr=a0b61362-cba0-4bf6-bcbc-6f89080d4e26&a0b61362-cba0-4bf6-bcbc-6f89080d4e26-processes%3A%3A%3A0-selectedNodeIds-arr=a0b61362-cba0-4bf6-bcbc-6f89080d4e26&a0b61362-cba0-4bf6-bcbc-6f89080d4e26-fn-selectedFn-arr=systemd-journal%3A%3A%3A0&a0b61362-cba0-4bf6-bcbc-6f89080d4e26-systemd-journal%3A%3A%3A0-selectedNodeIds-arr=a0b61362-cba0-4bf6-bcbc-6f89080d4e26&a0b61362-cba0-4bf6-bcbc-6f89080d4e26-systemd-journal%3A%3A%3A0Filters-__logs_sources-arr=all&724250ac-6c8d-499a-aeab-ad381bc57a90-anomalies-chartName-val=menu_Anomaly_advisor_submenu_Anomaly_advisor_anomaly_detection_anomaly_rate&724250ac-6c8d-499a-aeab-ad381bc57a90-feed-selectedFn-arr=feed&724250ac-6c8d-499a-aeab-ad381bc57a90--chartName-val=menu_System-0_Compute-1_submenu_System-0_Compute-1_CPU-2&724250ac-6c8d-499a-aeab-ad381bc57a90-55d0aeed-5381-471b-a0e7-46fd2c3e3bff-chartName-val=menu_System-0_Compute-1_submenu_System-0_Compute-1_CPU-2&724250ac-6c8d-499a-aeab-ad381bc57a90-a0b61362-cba0-4bf6-bcbc-6f89080d4e26-chartName-val=menu_System-0&724250ac-6c8d-499a-aeab-ad381bc57a90-processes%3A%3A%3A0-selectedNodeIds-arr=a9b6bef6-fade-455e-b704-56ab1e224236&724250ac-6c8d-499a-aeab-ad381bc57a90-fn-selectedFn-arr=windows-events%3A%3A%3A0&724250ac-6c8d-499a-aeab-ad381bc57a90-windows-events%3A%3A%3A0-selectedNodeIds-arr=55d0aeed-5381-471b-a0e7-46fd2c3e3bff&724250ac-6c8d-499a-aeab-ad381bc57a90-windows-events%3A%3A%3A0Filters-__logs_sources-arr=Application%2CMicrosoft-Client-Licensing-Platform%2FAdmin%2CMicrosoft-Windows-AAD%2FOperational%2CMicrosoft-Windows-Application-Experience%2FProgram-Compatibility-Assistant%2CMicrosoft-Windows-Application-Experience%2FProgram-Telemetry%2CMicrosoft-Windows-AppModel-Runtime%2FAdmin%2CMicrosoft-Windows-AppReadiness%2FAdmin%2CMicrosoft-Windows-AppReadiness%2FOperational%2CMicrosoft-Windows-AppXDeployment%2FOperational%2CMicrosoft-Windows-AppXDeployment-Server%2FOperational%2CMicrosoft-Windows-AppXDeploymentServer%2FOperational%2CMicrosoft-Windows-AppxPackaging%2FOperational%2CMicrosoft-Windows-Audio%2FOperational%2CMicrosoft-Windows-Audio%2FPlaybackManager%2CMicrosoft-Windows-Authentication%20User%20Interface%2FOperational%2CMicrosoft-Windows-BackgroundTaskInfrastructure%2FOperational%2CMicrosoft-Windows-Biometrics%2FOperational%2CMicrosoft-Windows-BitLocker%2FBitLocker%20Management%2CMicrosoft-Windows-Bits-Client%2FOperational%2CMicrosoft-Windows-Cleanmgr%2FDiagnostic%2CMicrosoft-Windows-CloudRestoreLauncher%2FOperational%2CMicrosoft-Windows-CloudStore%2FInitialization%2CMicrosoft-Windows-CloudStore%2FOperational%2CMicrosoft-Windows-CodeIntegrity%2FOperational%2CMicrosoft-Windows-Containers-BindFlt%2FOperational%2CMicrosoft-Windows-Containers-Wcifs%2FOperational%2CMicrosoft-Windows-Crypto-DPAPI%2FOperational%2CMicrosoft-Windows-Crypto-NCrypt%2FOperational%2CMicrosoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%2FAdmin%2CMicrosoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%2FOperational%2CMicrosoft-Windows-DeviceSetupManager%2FAdmin%2CMicrosoft-Windows-DeviceSetupManager%2FOperational%2CMicrosoft-Windows-Dhcp-Client%2FAdmin%2CMicrosoft-Windows-Diagnosis-DPS%2FOperational%2CMicrosoft-Windows-Diagnosis-PCW%2FOperational%2CMicrosoft-Windows-Diagnosis-Scheduled%2FOperational%2CMicrosoft-Windows-Diagnosis-Scripted%2FAdmin%2CMicrosoft-Windows-Diagnosis-Scripted%2FOperational%2CMicrosoft-Windows-Diagnostics-Networking%2FOperational%2CMicrosoft-Windows-Diagnostics-Performance%2FOperational%2CMicrosoft-Windows-Fault-Tolerant-Heap%2FOperational%2CMicrosoft-Windows-GroupPolicy%2FOperational%2CMicrosoft-Windows-HelloForBusiness%2FOperational%2CMicrosoft-Windows-Host-Network-Service-Admin%2CMicrosoft-Windows-Host-Network-Service-Operational%2CMicrosoft-Windows-Hyper-V-Compute-Admin%2CMicrosoft-Windows-Hyper-V-Compute-Operational%2CMicrosoft-Windows-Hyper-V-Hypervisor-Admin%2CMicrosoft-Windows-Hyper-V-Hypervisor-Operational%2CMicrosoft-Windows-Hyper-V-VMMS-Admin%2CMicrosoft-Windows-Hyper-V-VmSwitch-Operational%2CMicrosoft-Windows-Hyper-V-Worker-Admin%2CMicrosoft-Windows-Hyper-V-Worker-Operational%2CMicrosoft-Windows-Kernel-Boot%2FOperational%2CMicrosoft-Windows-Kernel-EventTracing%2FAdmin%2CMicrosoft-Windows-Kernel-LiveDump%2FOperational%2CMicrosoft-Windows-Kernel-PnP%2FConfiguration%2CMicrosoft-Windows-Kernel-PnP%2FDriver%20Watchdog%2CMicrosoft-Windows-Kernel-ShimEngine%2FOperational%2CMicrosoft-Windows-Kernel-WHEA%2FErrors%2CMicrosoft-Windows-Kernel-WHEA%2FOperational%2CMicrosoft-Windows-Known%20Folders%20API%20Service%2CMicrosoft-Windows-LanguagePackSetup%2FOperational%2CMicrosoft-Windows-LiveId%2FOperational%2CMicrosoft-Windows-ModernDeployment-Diagnostics-Provider%2FAutopilot%2CMicrosoft-Windows-ModernDeployment-Diagnostics-Provider%2FManagementService%2CMicrosoft-Windows-MUI%2FOperational%2CMicrosoft-Windows-NcdAutoSetup%2FOperational%2CMicrosoft-Windows-NCSI%2FOperational%2CMicrosoft-Windows-NetworkLocationWizard%2FOperational%2CMicrosoft-Windows-NetworkProfile%2FOperational%2CMicrosoft-Windows-NlaSvc%2FOperational%2CMicrosoft-Windows-Ntfs%2FOperational%2CMicrosoft-Windows-Ntfs%2FWHC%2CMicrosoft-Windows-Partition%2FDiagnostic%2CMicrosoft-Windows-PowerShell%2FOperational%2CMicrosoft-Windows-Privacy-Auditing%2FOperational%2CMicrosoft-Windows-Provisioning-Diagnostics-Provider%2FAdmin%2CMicrosoft-Windows-PushNotification-Platform%2FOperational%2CMicrosoft-Windows-ReadyBoost%2FOperational%2CMicrosoft-Windows-RemoteDesktopServices-RdpCoreTS%2FOperational%2CMicrosoft-Windows-Resource-Exhaustion-Detector%2FOperational%2CMicrosoft-Windows-Resource-Exhaustion-Resolver%2FOperational%2CMicrosoft-Windows-Security-LessPrivilegedAppContainer%2FOperational%2CMicrosoft-Windows-Security-Mitigations%2FKernelMode%2CMicrosoft-Windows-Security-SPP-UX-Notifications%2FActionCenter%2CMicrosoft-Windows-SettingSync%2FDebug%2CMicrosoft-Windows-ShellCommon-StartLayoutPopulation%2FOperational%2CMicrosoft-Windows-Shell-Core%2FAppDefaults%2CMicrosoft-Windows-Shell-Core%2FOperational%2CMicrosoft-Windows-SmartCard-DeviceEnum%2FOperational%2CMicrosoft-Windows-SmbClient%2FConnectivity%2CMicrosoft-Windows-SMBClient%2FOperational%2CMicrosoft-Windows-SMBServer%2FOperational%2CMicrosoft-Windows-StateRepository%2FOperational%2CMicrosoft-Windows-Storage-ClassPnP%2FOperational%2CMicrosoft-Windows-StorageSpaces-Driver%2FOperational%2CMicrosoft-Windows-Storage-Storport%2FHealth%2CMicrosoft-Windows-Storage-Storport%2FOperational%2CMicrosoft-Windows-Store%2FOperational%2CMicrosoft-Windows-Storsvc%2FDiagnostic%2CMicrosoft-Windows-TaskScheduler%2FMaintenance%2CMicrosoft-Windows-TerminalServices-LocalSessionManager%2FOperational%2CMicrosoft-Windows-TerminalServices-PnPDevices%2FAdmin%2CMicrosoft-Windows-TerminalServices-RDPClient%2FOperational%2CMicrosoft-Windows-TerminalServices-RemoteConnectionManager%2FOperational%2CMicrosoft-Windows-TerminalServices-ServerUSBDevices%2FAdmin%2CMicrosoft-Windows-Time-Service%2FOperational%2CMicrosoft-Windows-TWinUI%2FOperational%2CMicrosoft-Windows-TZSync%2FOperational%2CMicrosoft-Windows-UAC-FileVirtualization%2FOperational%2CMicrosoft-Windows-UAC%2FOperational%2CMicrosoft-Windows-UniversalTelemetryClient%2FOperational%2CMicrosoft-Windows-User%20Device%20Registration%2FAdmin%2CMicrosoft-Windows-UserPnp%2FActionCenter%2CMicrosoft-Windows-UserPnp%2FDeviceInstall%2CMicrosoft-Windows-User%20Profile%20Service%2FOperational%2CMicrosoft-Windows-UserSettingsBackup-Orchestrator%2FOperational%2CMicrosoft-Windows-VHDMP-Operational%2CMicrosoft-Windows-VolumeSnapshot-Driver%2FOperational%2CMicrosoft-Windows-Wcmsvc%2FOperational%2CMicrosoft-Windows-WDAG-Service%2FOperational%2CMicrosoft-Windows-WebAuthN%2FOperational%2CMicrosoft-Windows-WER-PayloadHealth%2FOperational%2CMicrosoft-Windows-WFP%2FOperational%2CMicrosoft-Windows-Win32k%2FOperational%2CMicrosoft-Windows-Windows%20Defender%2FOperational%2CMicrosoft-Windows-Windows%20Firewall%20With%20Advanced%20Security%2FFirewall%2CMicrosoft-Windows-WindowsSystemAssessmentTool%2FOperational%2CMicrosoft-Windows-WindowsUpdateClient%2FOperational%2CMicrosoft-Windows-WinINet-Config%2FProxyConfigChanged%2CMicrosoft-Windows-Winlogon%2FOperational%2CMicrosoft-Windows-WinRM%2FOperational%2CMicrosoft-Windows-WLAN-AutoConfig%2FOperational%2CMicrosoft-Windows-WMI-Activity%2FOperational%2CNetdata%2FCollectors%2CNetdata%2FDaemon%2CNetdata%2FHealth%2COAlerts%2CPowerShellCore%2FOperational%2CRemoteDesktopServices-RemoteFX-SessionLicensing-Debug%2CSecurity%2CSetup%2CSystem%2CWindows%20PowerShell&724250ac-6c8d-499a-aeab-ad381bc57a90--pointInTime-int=0
+        target: newtab
+        id: 5_1734_netdata
+      - title: Portainer (NASty)
+        description: Portainer instance on the Synology NAS
+        icon: >-
+          https://imgs.search.brave.com/I49qAtOXfWYxTEcSVnSOdzvbdk2XZP7ic_fnitgL_rc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY29u/LmljZXBhbmVsLmlv/L1RlY2hub2xvZ3kv/c3ZnL1BvcnRhaW5l/ci5zdmc
+        url: http://192.168.10.99:9000/
+        target: newtab
+        id: 6_1734_portainernasty
+  - name: Project Links
+    icon: >-
+      https://img.favpng.com/0/20/2/project-icon-business-management-icon-project-management-icon-png-favpng-05qyCDKe21ZX6CfmJZGaDXzN7.jpg
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Ras-Pi Projects
+        description: Notion page of Raspberry-Pi projects
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2429%2FPNG%2F512%2Fnotion_logo_icon_147257.png&f=1&nofb=1&ipt=171ebdaaae06f472e562a960de7107f967ae1efa5a1045b7622f89cc858efcf6&ipo=images
+        url: >-
+          https://fullerdocs.notion.site/Raspberry-Pi-Projects-423e8913562d4b8b94e4705e018937aa
+        target: newtab
+        id: 0_1272_raspiprojects
+      - title: GitHub Repo
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fliu-square-blac%2F60%2Fgithub-square-social-media-512.png&f=1&nofb=1&ipt=60ab9afd417a04de70d54941aa00a2bb984c022a3b1457b85dfcf5481bcc7305&ipo=images
+        url: https://github.com/FullerFi?tab=repositories
+        target: newtab
+        id: 1_1272_githubrepo
+      - title: the-jeffrey
+        description: Wordpress editing site
+        icon: https://the-jeffrey.com/wp-content/uploads/2021/03/Fuller-Logo-3.svg
+        url: >-
+          https://the-jeffrey.com/wp-login.php?redirect_to=https%3A%2F%2Fthe-jeffrey.com%2Fwp-admin%2F&reauth=1
+        target: newtab
+        id: 2_1272_thejeffrey
+  - name: Communication
+    icon: >-
+      https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fbusiness-ultimate%2F64%2F1-27-1024.png&f=1&nofb=1&ipt=151842a8b4b49276194dc588a33924aa15ecd27398b40bd3f70b1cee3ee6ce32&ipo=images
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Gmail
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.citypng.com%2Fpublic%2Fuploads%2Fpreview%2F-11597283135pwufcfsb09.png&f=1&nofb=1&ipt=e92a2002b5199804f13fed8ed60b3116e8b1e1c47531ac9a4e90e6e1f5130d97&ipo=images
+        url: https://mail.google.com/mail/u/0/#inbox
+        target: newtab
+        id: 0_1366_gmail
+      - title: Discord
+        icon: >-
+          https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnektony.com%2Fwp-content%2Fuploads%2F2019%2F07%2Fdiscord-icon.png&f=1&nofb=1&ipt=abab0cfb6e69e1e2d81d1adb5fe2f4038cfd788c97a90c5f6db7c48ce947c52f&ipo=images
+        url: https://discord.com/login
+        target: newtab
+        id: 1_1366_discord
+      - title: AnonAddy
+        description: Email address alias maker
+        icon: >-
+          https://imgs.search.brave.com/boGweqqJfmgkY6mLC0_A_fNSYm4KvIX4fW8sLII_aVA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI0/MDcvUE5HLzUxMi9h/bm9uYWRkeV9pY29u/XzE0NjIzMi5wbmc
+        url: >-
+          https://app.anonaddy.com/?z4qx55j7twgiul3p3o7srftosq=b56gj5hluyvxkl7dhwv5b4khge
+        target: newtab
+        id: 2_1366_anonaddy
+  - name: Network Tools
+    icon: >-
+      https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*xvSBAjAbz5qDayHvp_9nhg.png&f=1&nofb=1&ipt=21fc6808dfd0b6a594894fe2a613bdbc519977f17331137b3b15e568a5ee41f2&ipo=images
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Uptime Kuma
+        description: Shows the uptime for all my goods
+        icon: >-
+          https://imgs.search.brave.com/E1Y0HJ36i1NG0T63OjoWstXgNhsbiuGxqsVuI-zl7uQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzUx/a2d6eC9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl9oeDAydWdkemF3/bjcxLnBuZw
+        url: http://homeassistant:3001/dashboard/3
+        target: newtab
+        id: 0_1307_uptimekuma
+      - title: Tailscale Clients
+        icon: >-
+          https://imgs.search.brave.com/pOu6Kchyfvsy9sN_ywu4Imcy8-o4UFXC0svUQKQSLVA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL0MxMHVk/YnVyc3QvdGFpbHNj/YWxlLXN5c3RyYXkv/cmF3L21hc3Rlci9p/Y29ucy9vbi5wbmc
+        url: https://login.tailscale.com/admin/machines?refreshed=true
+        target: newtab
+        id: 1_1307_tailscaleclients
